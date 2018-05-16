@@ -1,12 +1,12 @@
 {
-  "name": "@monax/legacy-db",
+  "name": "burrow-db",
   "description": "Javascript library that calls a Hyperledger Burrow server over rpc.",
   "version": "0.16.4",
   "author": {
     "name": "Andreas Olofsson"
   },
   "bugs": {
-    "url": "https://github.com/monax/legacy-db.js/issues"
+    "url": "https://github.com/finterra/burrow-db.js/issues"
   },
   "dependencies": {
     "@nodeguy/generic": "3.0.0",
@@ -32,7 +32,7 @@
   "engines": {
     "node": ">=6"
   },
-  "homepage": "https://github.com/monax/legacy-db.js",
+  "homepage": "https://github.com/finterra/burrow-db.js",
   "keywords": [
     "Burrow",
     "Hyperledger",
@@ -48,7 +48,7 @@
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/monax/legacy-db.js"
+    "url": "https://github.com/finterra/burrow-db.js"
   },
   "scripts": {
     "doc": "jsdoc --configure JSDoc/conf.json --destination doc index.js lib README.md",
